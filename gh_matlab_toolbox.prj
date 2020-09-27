@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration file="/Users/Geas/Documents/DOCS/resources/sw/matlab/gh_matlab_toolbox/gh_matlab_toolbox.prj" location="/Users/Geas/Documents/DOCS/resources/sw/matlab/gh_matlab_toolbox" name="gh_matlab_toolbox" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="403085348" file="/Users/Geas/Documents/DOCS/resources/sw/matlab/gh_matlab_toolbox/gh_matlab_toolbox.prj" location="/Users/Geas/Documents/DOCS/resources/sw/matlab/gh_matlab_toolbox" name="gh_matlab_toolbox" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>gh_matlab_toolbox</param.appname>
     <param.authnamewatermark>George Howell</param.authnamewatermark>
     <param.email />
@@ -7,7 +7,7 @@
     <param.summary>A collection of useful functions</param.summary>
     <param.description />
     <param.screenshot>${PROJECT_ROOT}/imgs/img.jpg</param.screenshot>
-    <param.version>1.0</param.version>
+    <param.version>1.1</param.version>
     <param.output>${PROJECT_ROOT}/gh_matlab_toolbox.mltbx</param.output>
     <param.products.name />
     <param.products.id />
@@ -64,7 +64,6 @@
       <param.email />
       <param.company />
       <param.description />
-      <param.version />
       <param.output />
       <param.products.name />
       <param.products.id />
@@ -103,6 +102,7 @@
     <fileset.rootfiles>
       <file>${PROJECT_ROOT}/code/basicSignalPlotting.m</file>
       <file>${PROJECT_ROOT}/code/createNewFunction.m</file>
+      <file>${PROJECT_ROOT}/code/createSignal.m</file>
       <file>${PROJECT_ROOT}/code/db.m</file>
       <file>${PROJECT_ROOT}/code/i2cPullUp.m</file>
     </fileset.rootfiles>

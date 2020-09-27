@@ -40,6 +40,6 @@ fprintf(fileID,'\n');
 fprintf(fileID,'end');
 
 % close file
-fclose(funcNameFull);
+% fclose(funcNameFull);
 
 end
