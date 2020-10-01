@@ -7,7 +7,7 @@
     <param.summary>A collection of useful functions</param.summary>
     <param.description />
     <param.screenshot>${PROJECT_ROOT}/imgs/img.jpg</param.screenshot>
-    <param.version>1.1</param.version>
+    <param.version>1.2</param.version>
     <param.output>${PROJECT_ROOT}/gh_matlab_toolbox.mltbx</param.output>
     <param.products.name />
     <param.products.id />
@@ -104,6 +104,7 @@
       <file>${PROJECT_ROOT}/code/createNewFunction.m</file>
       <file>${PROJECT_ROOT}/code/createSignal.m</file>
       <file>${PROJECT_ROOT}/code/db.m</file>
+      <file>${PROJECT_ROOT}/code/float2fixPoint.m</file>
       <file>${PROJECT_ROOT}/code/i2cPullUp.m</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
